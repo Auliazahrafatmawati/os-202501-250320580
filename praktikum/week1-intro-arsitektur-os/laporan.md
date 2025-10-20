@@ -22,6 +22,14 @@ Tuliskan tujuan praktikum minggu ini.
 
 ## Dasar Teori
 Tuliskan ringkasan teori (3–5 poin) yang mendasari percobaan.
+1. Sistem operasi adalah perangkat lunak yang bertindak sebagai perantara antara pengguna dan perangkat keras komputer. Sistem operasi mengelola perangkat keras dan perangkat lunak komputer, serta menyediakan layanan bagi program aplikasi.
+2. Arsitektur Sistem Operasi
+Monolithic Kernel: Semua layanan OS berjalan di dalam satu kernel space. Contoh: Linux.
+Microkernel: Layanan OS dipisah ke dalam modul-modul kecil. Hanya fitur dasar yang ada di kernel. Contoh: Minix.
+Modular: Gabungan monolithic dan microkernel; modul bisa dimuat/dibongkar. Contoh: Linux modern.
+Layered: Dibagi dalam lapisan-lapisan hierarki.
+Virtual Machine Architecture: Menyediakan emulasi lengkap mesin fisik.
+3. Kernel adalah komponen inti dari sistem operasi yang bertugas langsung mengelola sumber daya perangkat keras (seperti CPU, memori, dan perangkat I/O) serta mengatur interaksi antara perangkat keras dengan perangkat lunak (program aplikasi).
 
 ---
 
