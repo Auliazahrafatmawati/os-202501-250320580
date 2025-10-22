@@ -58,7 +58,8 @@ Sertakan screenshot hasil percobaan atau diagram:
 ---
 
 ## Analisis
-- Jelaskan makna hasil percobaan.  
+- Jelaskan makna hasil percobaan.
+ Memperdalam pemahaman teori arsitektur sistem operasi dengan praktik nyata, melihat langsung bagaimana berbagai komponen sistem operasi berinteraksi dan bekerja,mengamati perilaku sistem operasi saat mengelola sumber daya komputer,mengidentifikasi kelebihan dan keterbatasan suatu pendekatan arsitektur OS.
 - Hubungkan hasil dengan teori (fungsi kernel, system call, arsitektur OS).  
 - Apa perbedaan hasil di lingkungan OS berbeda (Linux vs Windows)?  
 
