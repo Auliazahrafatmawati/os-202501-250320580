@@ -75,7 +75,6 @@ Address Space Layout Randomization (ASLR): Mengacak lokasi memori kernel untuk m
 Mandatory Access Control (MAC): Kebijakan kontrol akses granular yang membatasi hak istimewa bahkan dalam mode kernel untuk mencegah eskalasi hak istimewa yang tidak sah, seperti SELinux pada Linux.
 Hardware Stack Protection: Beberapa perangkat keras menyediakan perlindungan tumpukan untuk menegakkan integritas alur kontrol kernel dan mencegah eksploitasi buffer overflow. 
 Melalui mekanisme berlapis ini, OS memastikan bahwa meskipun program pengguna mengalami kerusakan, kernel tetap terlindungi dan stabilitas seluruh sistem terjaga.
-
 Contoh system call yang sering digunakan di Linux adalah open, read, write, close (untuk manajemen file), fork, exec, exit (untuk manajemen proses), dan kill (untuk mengirim sinyal ke proses). Panggilan sistem ini menyediakan antarmuka antara program dan kernel sistem operasi, memungkinkan program untuk meminta layanan seperti interaksi file, pembuatan proses baru, atau mengakhiri eksekusi. 
 
 ## Kesimpulan
@@ -84,12 +83,12 @@ Tuliskan 2–3 poin kesimpulan dari praktikum ini.
 ---
 
 ## Quiz
-1. Mengapa system call 
-   **Jawaban:**  
-2. [Pertanyaan 2]  
-   **Jawaban:**  
-3. [Pertanyaan 3]  
-   **Jawaban:**  
+1. Apa fungsi utama system call dalam sistem operasi?
+   **Jawaban:** Fungsi utama system call adalah sebagai jembatan antara aplikasi pengguna dan kernel sistem operasi untuk mengakses sumber daya perangkat keras dan layanan sistem lainnya.
+2. Sebutkan 4 kategori system call yang umum digunakan.
+   **Jawaban:**  Empat kategori system call yang umum digunakan adalah manajemen proses, manajemen berkas, manajemen perangkat I/O, dan komunikasi.
+3. Mengapa system call tidak bisa dipanggil langsung oleh user program. 
+   **Jawaban:**  System call tidak dapat dipanggil langsung oleh program pengguna karena beberapa alasan mendasar terkait keamanan, stabilitas, dan manajemen sumber daya sistem operasi.
 
 ---
 
