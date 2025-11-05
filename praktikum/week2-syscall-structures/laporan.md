@@ -75,6 +75,7 @@ Address Space Layout Randomization (ASLR): Mengacak lokasi memori kernel untuk m
 Mandatory Access Control (MAC): Kebijakan kontrol akses granular yang membatasi hak istimewa bahkan dalam mode kernel untuk mencegah eskalasi hak istimewa yang tidak sah, seperti SELinux pada Linux.
 Hardware Stack Protection: Beberapa perangkat keras menyediakan perlindungan tumpukan untuk menegakkan integritas alur kontrol kernel dan mencegah eksploitasi buffer overflow. 
 Melalui mekanisme berlapis ini, OS memastikan bahwa meskipun program pengguna mengalami kerusakan, kernel tetap terlindungi dan stabilitas seluruh sistem terjaga.
+
 Contoh system call yang sering digunakan di Linux adalah open, read, write, close (untuk manajemen file), fork, exec, exit (untuk manajemen proses), dan kill (untuk mengirim sinyal ke proses). Panggilan sistem ini menyediakan antarmuka antara program dan kernel sistem operasi, memungkinkan program untuk meminta layanan seperti interaksi file, pembuatan proses baru, atau mengakhiri eksekusi. 
 
 ## Kesimpulan
