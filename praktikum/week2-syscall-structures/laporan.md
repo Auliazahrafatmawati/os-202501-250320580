@@ -54,7 +54,8 @@ Sertakan screenshot hasil percobaan atau diagram:
 
 ---
 ## Tugas
-System call penting untuk keamanan OS karena menjadi gateway yang terstruktur antara aplikasi dan kernel, mencegah akses langsung yang tidak sah ke sumber daya sensitif seperti memori dan perangkat keras, serta menegakkan kontrol akses yang memvalidasi izin sebelum operasi dieksekusi. Melalui system call, sistem operasi mengontrol dan mengisolasi setiap program, memastikan satu program tidak dapat mengganggu program lain atau merusak sistem. Sistem operasi (OS) memastikan transisi yang aman antara mode pengguna (user mode) dan mode kernel (kernel mode) melalui kombinasi dukungan perangkat keras (hardware) dan mekanisme perangkat lunak (software). Mekanisme utamanya adalah operasi mode ganda (dual-mode operation) dan penggunaan panggilan sistem (system calls). Cara OS memastikan keamanan transisi tersebut:
+System call penting untuk keamanan OS karena menjadi gateway yang terstruktur antara aplikasi dan kernel, mencegah akses langsung yang tidak sah ke sumber daya sensitif seperti memori dan perangkat keras, serta menegakkan kontrol akses yang memvalidasi izin sebelum operasi dieksekusi. Melalui system call, sistem operasi mengontrol dan mengisolasi setiap program, memastikan satu program tidak dapat mengganggu program lain atau merusak sistem. Sistem operasi (OS) memastikan transisi yang aman antara mode pengguna (user mode) dan mode kernel (kernel mode) melalui kombinasi dukungan perangkat keras (hardware) dan mekanisme perangkat lunak (software). Mekanisme utamanya adalah operasi mode ganda (dual-mode operation) dan penggunaan panggilan sistem (system calls).
+Cara OS memastikan keamanan transisi tersebut:
 1. Operasi Mode Ganda (Dual-Mode Operation)
 Ini adalah fondasi keamanan transisi, di mana CPU beroperasi dalam salah satu dari dua mode:
 Mode Pengguna (User Mode): Ini adalah mode terbatas di mana sebagian besar aplikasi berjalan. Dalam mode ini, akses ke sumber daya perangkat keras dan instruksi CPU tertentu dibatasi. Kesalahan atau crash dalam mode pengguna tidak akan membahayakan stabilitas seluruh sistem.
@@ -74,6 +75,7 @@ Address Space Layout Randomization (ASLR): Mengacak lokasi memori kernel untuk m
 Mandatory Access Control (MAC): Kebijakan kontrol akses granular yang membatasi hak istimewa bahkan dalam mode kernel untuk mencegah eskalasi hak istimewa yang tidak sah, seperti SELinux pada Linux.
 Hardware Stack Protection: Beberapa perangkat keras menyediakan perlindungan tumpukan untuk menegakkan integritas alur kontrol kernel dan mencegah eksploitasi buffer overflow. 
 Melalui mekanisme berlapis ini, OS memastikan bahwa meskipun program pengguna mengalami kerusakan, kernel tetap terlindungi dan stabilitas seluruh sistem terjaga.
+
 Contoh system call yang sering digunakan di Linux adalah open, read, write, close (untuk manajemen file), fork, exec, exit (untuk manajemen proses), dan kill (untuk mengirim sinyal ke proses). Panggilan sistem ini menyediakan antarmuka antara program dan kernel sistem operasi, memungkinkan program untuk meminta layanan seperti interaksi file, pembuatan proses baru, atau mengakhiri eksekusi. 
 
 ## Kesimpulan
@@ -82,7 +84,7 @@ Tuliskan 2–3 poin kesimpulan dari praktikum ini.
 ---
 
 ## Quiz
-1. [Pertanyaan 1]  
+1. Mengapa system call 
    **Jawaban:**  
 2. [Pertanyaan 2]  
    **Jawaban:**  
