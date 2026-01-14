@@ -1,13 +1,13 @@
 
-# Laporan Praktikum Minggu [X]
-Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
+# Laporan Praktikum Minggu [5]
+Topik: Penjadwalan CPU-FCFS dan SJF
 
 ---
 
 ## Identitas
-- **Nama**  : [Nama Mahasiswa]  
-- **NIM**   : [NIM Mahasiswa]  
-- **Kelas** : [Kelas]
+- **Nama**  : Aulia Zahra Fatmawati 
+- **NIM**   : 250320580 
+- **Kelas** : 1DSRA
 
 ---
 
@@ -60,12 +60,12 @@ Tuliskan 2–3 poin kesimpulan dari praktikum ini.
 ---
 
 ## Quiz
-1. [Pertanyaan 1]  
-   **Jawaban:**  
-2. [Pertanyaan 2]  
-   **Jawaban:**  
-3. [Pertanyaan 3]  
-   **Jawaban:**  
+1. Apa perbedaan utama antara FCFS dan SJF?  
+   **Jawaban:** Perbedaan utama antara FCFS (First Come First Served) dan SJF (Shortest Job First) terletak pada cara penjadwalan proses di sistem operasi dan dampaknya terhadap waktu tunggu (waiting time). 
+2. Mengapa SJF dapat menghasilkan rata-rata waktu tunggu minimum? 
+   **Jawaban:** SJF (Shortest Job First) dapat menghasilkan rata-rata waktu tunggu minimum karena algoritma ini selalu memprioritaskan proses dengan waktu eksekusi (CPU burst) paling pendek, sehingga waktu tunggu proses-proses kecil tidak “terjebak” di belakang proses besar.
+3. Apa kelemahan SJF jika diterapkan pada sistem interaktif?
+   **Jawaban:** Kelemahan utama SJF (Shortest Job First) jika diterapkan pada sistem interaktif adalah sulit mengetahui burst time dan respons time bisa buruk.
 
 ---
 
