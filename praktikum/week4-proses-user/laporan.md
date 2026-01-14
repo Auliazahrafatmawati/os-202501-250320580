@@ -1,13 +1,13 @@
 
-# Laporan Praktikum Minggu [X]
-Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
+# Laporan Praktikum Minggu [4]
+Topik: Manajemen Proses dan User di Linux
 
 ---
 
 ## Identitas
-- **Nama**  : [Nama Mahasiswa]  
-- **NIM**   : [NIM Mahasiswa]  
-- **Kelas** : [Kelas]
+- **Nama**  : Aulia Zahra Fatmawati 
+- **NIM**   : 250320580
+- **Kelas** : 1DSRA
 
 ---
 
@@ -60,12 +60,12 @@ Tuliskan 2–3 poin kesimpulan dari praktikum ini.
 ---
 
 ## Quiz
-1. [Pertanyaan 1]  
-   **Jawaban:**  
-2. [Pertanyaan 2]  
-   **Jawaban:**  
-3. [Pertanyaan 3]  
-   **Jawaban:**  
+1. Apa fungsi dari proses init atau systemd dalam sistem Linux?  
+   **Jawaban:** Dalam sistem Linux, init atau systemd berfungsi sebagai proses pertama (PID 1) yang dijalankan oleh kernel setelah booting. Proses ini bertanggung jawab menginisialisasi dan mengelola seluruh proses serta layanan sistem.  
+2. Apa perbedaan antara kill dan killall? 
+   **Jawaban:** Perbedaan antara kill dan killall di Linux terletak pada cara menargetkan proses yang akan dihentikan. kill: menghentikan proses berdasarkan PID (Process ID). killall menghentikan proses berdasarkan nama proses.  
+3. Mengapa user root memiliki hak istimewa di sistem Linux? 
+   **Jawaban:** User root memiliki hak istimewa di sistem Linux karena root adalah superuser, yaitu akun dengan kendali penuh atas sistem. Konsep ini dirancang secara sengaja untuk memungkinkan administrasi dan pengelolaan sistem secara menyeluruh. 
 
 ---
 
