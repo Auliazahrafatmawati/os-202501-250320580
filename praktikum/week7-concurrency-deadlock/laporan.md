@@ -60,12 +60,12 @@ Tuliskan 2–3 poin kesimpulan dari praktikum ini.
 ---
 
 ## Quiz
-1. [Pertanyaan 1]  
-   **Jawaban:**  
-2. [Pertanyaan 2]  
-   **Jawaban:**  
-3. [Pertanyaan 3]  
-   **Jawaban:**  
+1. Sebutkan empat kondisi utama penyebab deadlock. 
+   **Jawaban:** Mutual Exclusion, Hold and Wait, No Preemption, dan Circular Wait.  
+2. Mengapa sinkronisasi diperlukan dalam sistem operasi?
+   **Jawaban:** Sinkronisasi diperlukan dalam sistem operasi untuk mengatur akses proses atau thread ke sumber daya bersama agar sistem berjalan benar, konsisten, dan bebas dari kesalahan. 
+3. Jelaskan perbedaan antara semaphore dan monitor.  
+   **Jawaban:** Perbedaan antara semaphore dan monitor terletak pada cara sinkronisasi, tingkat abstraksi, dan cara penggunaannya dalam sistem operasi maupun pemrograman konkuren. 
 
 ---
 
