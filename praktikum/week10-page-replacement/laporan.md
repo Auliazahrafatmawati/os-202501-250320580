@@ -111,11 +111,14 @@ Tuliskan 2–3 poin kesimpulan dari praktikum ini.
 
 ## Quiz
 1. Apa perbedaan utama FIFO dan LRU?
-   **Jawaban**:
+   **Jawaban**: FIFO (First In First Out) mengganti halaman yang paling lama masuk ke memori, tanpa memperhatikan seberapa sering atau seberapa baru halaman tersebut digunakan.LRU (Least Recently Used) mengganti halaman yang paling lama tidak digunakan, dengan asumsi bahwa halaman yang baru saja digunakan kemungkinan besar akan digunakan lagi.
 2. Mengapa FIFO dapat menghasilkan Belady’s Anomaly?
-   **Jawaban**:
+   **Jawaban**: FIFO dapat menghasilkan Belady’s Anomaly karena keputusan penggantian halamannya tidak bergantung pada pola penggunaan halaman.Akibatnya, menambah jumlah frame memori tidak selalu mengurangi page fault, bahkan bisa meningkatkannya, karena halaman yang masih sering digunakan bisa saja dikeluarkan hanya karena masuk lebih awal.
 3. Mengapa LRU umumnya menghasilkan performa lebih baik dibanding FIFO?
-   **Jawaban**:
+   **Jawaban**: LRU umumnya lebih baik karena:
+Memanfaatkan locality of reference, yaitu halaman yang baru digunakan cenderung digunakan kembali.
+Menggantikan halaman yang memang jarang dipakai, sehingga jumlah page fault lebih kecil.
+LRU termasuk algoritma stack algorithm, sehingga tidak mengalami Belady’s Anomaly.
 
 
 ---
