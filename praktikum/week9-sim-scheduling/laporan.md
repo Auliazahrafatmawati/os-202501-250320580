@@ -1,6 +1,6 @@
 
-# Laporan Praktikum Minggu 9
-Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
+# Laporan Praktikum Minggu [9]
+Topik: Simulasi Algoritma Penjadwalan CPU
 
 ---
 
@@ -106,8 +106,7 @@ Tuliskan 2–3 poin kesimpulan dari praktikum ini.
 1.  Mengapa simulasi diperlukan untuk menguji algoritma scheduling? 
    **Jawaban:**  Simulasi diperlukan untuk menguji algoritma scheduling karena membantu melihat cara kerja algoritma secara langsung. Dengan simulasi, kita bisa mengetahui urutan proses yang dijalankan CPU, serta menghitung waktu tunggu dan waktu turnaround tanpa harus menghitung manual satu per satu.
 2. Apa perbedaan hasil simulasi dengan perhitungan manual jika dataset besar?
-
-   **Jawaban:** Perbedaan hasil simulasi dengan perhitungan manual pada dataset besar terletak pada efisiensi dan potensi kesalahan.Pada dataset yang besar, perhitungan manual menjadi sangat lama dan rentan kesalahan hitung, sehingga hasilnya bisa tidak konsisten. Sebaliknya, simulasi mampu menghitung semua proses secara cepat, otomatis, dan konsisten, sehingga hasilnya lebih akurat dan mudah dianalisis.  
+   **Jawaban:** Perbedaan hasil simulasi dengan perhitungan manual pada dataset besar terletak pada efisiensi dan potensi kesalahan.Pada dataset yang besar, perhitungan manual menjadi sangat lama dan rentan kesalahan hitung, sehingga hasilnya bisa tidak konsisten. Sebaliknya, simulasi mampu menghitung semua proses secara cepat, otomatis, dan konsisten, sehingga hasilnya lebih akurat dan mudah dianalisis. 
 3. Algoritma mana yang lebih mudah diimplementasikan? Jelaskan. 
    **Jawaban:** Algoritma yang lebih mudah diimplementasikan adalah FCFS (First Come First Served).Hal ini karena FCFS memiliki logika yang sederhana, yaitu proses dijalankan sesuai urutan kedatangan tanpa perlu perbandingan tambahan. Program cukup mengurutkan proses berdasarkan arrival time, lalu mengeksekusinya satu per satu.  
 
