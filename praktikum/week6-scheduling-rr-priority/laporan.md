@@ -1,6 +1,6 @@
 
 # Laporan Praktikum Minggu [6]
-Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
+Topik: Penjadwalan CPU-Round Robin (RR) dan Priority Scheduling
 
 ---
 
@@ -60,12 +60,12 @@ Tuliskan 2–3 poin kesimpulan dari praktikum ini.
 ---
 
 ## Quiz
-1. [Pertanyaan 1]  
-   **Jawaban:**  
-2. [Pertanyaan 2]  
-   **Jawaban:**  
-3. [Pertanyaan 3]  
-   **Jawaban:**  
+1. Apa perbedaan utama antara Round Robin dan Priority Scheduling?   
+   **Jawaban:** Perbedaan utama antara Round Robin (RR) dan Priority Scheduling (PS) terletak pada cara penjadwalan proses CPU dan kriteria pemilihan proses yang dijalankan.  
+2. Apa pengaruh besar/kecilnya time quantum terhadap performa sistem?  
+   **Jawaban:** Time quantum kecil: Respons cepat, tapi overhead context switch besar. Time quantum besar: Overhead kecil, tapi respons lambat (mendekati FCFS).  
+3. Mengapa algoritma Priority dapat menyebabkan starvation?  
+   **Jawaban:** Priority menyebabkan starvation karena proses berprioritas rendah terus kalah dari proses prioritas tinggi.  
 
 ---
 
