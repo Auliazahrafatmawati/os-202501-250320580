@@ -1,13 +1,13 @@
 
 # Laporan Praktikum Minggu [7]
-Topik:
+Topik: Sinkronisasi Proses dan Masalah Deadlock
 
 ---
 
 ## Identitas
-- **Nama**  : [Nama Mahasiswa]  
-- **NIM**   : [NIM Mahasiswa]  
-- **Kelas** : [Kelas]
+- **Nama**  : Aulia Zahra Fatmawati  
+- **NIM**   : 250320580  
+- **Kelas** : 1DSRA
 
 ---
 
