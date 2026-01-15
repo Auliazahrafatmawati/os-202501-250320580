@@ -1,12 +1,11 @@
 
 # Laporan Praktikum Minggu [7]
-Topik: Sinkronisasi Proses dan Masalah Deadlock
+Topik: Tugas Kelompok Sinkronisasi Proses dan Masalah Deadlock
 
 ---
 
 ## Identitas
-- **Nama**  : Aulia Zahra Fatmawati  
-- **NIM**   : 250320580  
+- **Nama**,**Nim**  : Aulia Zahra Fatmawati(250320580), 'Aisyah Nurur Rohmah(250320585), Safyra Azahro(250320586)  
 - **Kelas** : 1DSRA
 
 ---
