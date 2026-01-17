@@ -60,13 +60,14 @@ Tuliskan 2–3 poin kesimpulan dari praktikum ini.
 ---
 
 ## Quiz
-1. [Pertanyaan 1]  
-   **Jawaban:**  
-2. [Pertanyaan 2]  
-   **Jawaban:**  
-3. [Pertanyaan 3]  
-   **Jawaban:**  
+1. Apa perbedaan antara host OS dan guest OS?
+   **Jawaban**:
+2. Apa peran hypervisor dalam virtualisasi?
+   **Jawaban**:
+3. Mengapa virtualisasi meningkatkan keamanan sistem?
+   **Jawaban**:
 
+   
 ---
 
 ## Refleksi Diri
