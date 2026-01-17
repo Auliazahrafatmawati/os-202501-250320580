@@ -1,13 +1,13 @@
 
-# Laporan Praktikum Minggu [X]
-Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
+# Laporan Praktikum Minggu [12]
+Topik: Virtualisasi Menggunakan Virtual Machine
 
 ---
 
 ## Identitas
-- **Nama**  : [Nama Mahasiswa]  
-- **NIM**   : [NIM Mahasiswa]  
-- **Kelas** : [Kelas]
+- **Nama**  : Aulia Zahra Fatmawati 
+- **NIM**   : 250320580 
+- **Kelas** : 1DSRA
 
 ---
 
