@@ -1,13 +1,13 @@
 
-# Laporan Praktikum Minggu [X]
-Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
+# Laporan Praktikum Minggu [14]
+Topik: Penyusunan Laporan Praktikum Format IMRAD
 
 ---
 
 ## Identitas
-- **Nama**  : [Nama Mahasiswa]  
-- **NIM**   : [NIM Mahasiswa]  
-- **Kelas** : [Kelas]
+- **Nama**  : Aulia Zahra Fatmawati
+- **NIM**   : 250320580
+- **Kelas** : 1DSRA
 
 ---
 
@@ -60,12 +60,14 @@ Tuliskan 2–3 poin kesimpulan dari praktikum ini.
 ---
 
 ## Quiz
-1. [Pertanyaan 1]  
-   **Jawaban:**  
-2. [Pertanyaan 2]  
-   **Jawaban:**  
-3. [Pertanyaan 3]  
-   **Jawaban:**  
+1. Mengapa format IMRAD membantu membuat laporan praktikum lebih ilmiah dan mudah dievaluasi?
+   **Jawaban**: Format IMRAD (Introduction, Methods, Results, and Discussion) menyusun laporan secara sistematis dan logis. Struktur ini memudahkan pembaca dan evaluator untuk memahami tujuan praktikum, cara kerja yang dilakukan, hasil yang diperoleh, serta analisisnya. Dengan IMRAD, laporan menjadi lebih ilmiah, konsisten dengan standar publikasi akademik, dan mudah dinilai karena setiap bagian memiliki fungsi yang jelas.
+2. Apa perbedaan antara bagian Hasil dan Pembahasan?
+   **Jawaban**: Bagian Hasil berisi data atau temuan yang diperoleh dari praktikum secara objektif, biasanya disajikan dalam bentuk tabel, grafik, atau deskripsi singkat tanpa interpretasi.
+Bagian Pembahasan berisi analisis dan interpretasi terhadap hasil tersebut, termasuk penjelasan makna hasil, perbandingan dengan teori atau penelitian sebelumnya, serta alasan mengapa hasil bisa demikian.
+3. Mengapa sitasi dan daftar pustaka penting, bahkan untuk laporan praktikum?
+   **Jawaban**: Sitasi dan daftar pustaka penting untuk menunjukkan bahwa laporan didasarkan pada sumber ilmiah yang kredibel. Hal ini mencegah plagiarisme, memberikan penghargaan kepada penulis asli, serta memperkuat keabsahan teori atau metode yang digunakan. Dalam laporan praktikum, sitasi juga membantu pembaca menelusuri referensi dan memahami dasar ilmiah dari percobaan yang dilakukan.
+
 
 ---
 
