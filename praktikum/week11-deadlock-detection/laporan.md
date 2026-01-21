@@ -61,10 +61,10 @@ Tuliskan 2–3 poin kesimpulan dari praktikum ini.
 
 ## Quiz
 1. Apa perbedaan antara deadlock prevention, avoidance, dan detection?
-   **Jawaban**: Prevention: Mencegah salah satu kondisi deadlock terjadi, Avoidance: Menghindari deadlock dengan analisis kondisi aman, Detection: Mengizinkan deadlock terjadi lalu mendeteksinya.   
+   **Jawaban**: Prevention: Mencegah salah satu kondisi deadlock terjadi, Avoidance: Menghindari deadlock dengan analisis kondisi aman, Detection: Mengizinkan deadlock terjadi lalu mendeteksinya. 
 2. Mengapa deteksi deadlock tetap diperlukan dalam sistem operasi?
    **Jawaban**: Karena pencegahan dan penghindaran deadlock dapat menurunkan efisiensi sistem.  
-3.Apa kelebihan dan kekurangan pendekatan deteksi deadlock?
+3. Apa kelebihan dan kekurangan pendekatan deteksi deadlock?
    **Jawaban**: Kelebihan: Fleksibilitas tinggi, Utilisasi resource lebih baik, Tidak perlu info kebutuhan maksimum proses, Cocok untuk sistem dinamis. Kekurangan: Deadlock sudah terjadi sebelum ditangani, Overhead komputasi untuk deteksi, Risiko kehilangan data / rollback mahal.
  
 
