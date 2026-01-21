@@ -1,13 +1,13 @@
 
-# Laporan Praktikum Minggu [X]
-Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
+# Laporan Praktikum Minggu [13]
+Topik: Docker – Resource Limit (CPU & Memori)
 
 ---
 
 ## Identitas
-- **Nama**  : [Nama Mahasiswa]  
-- **NIM**   : [NIM Mahasiswa]  
-- **Kelas** : [Kelas]
+- **Nama**  : Aulia Zahra Fatmawati  
+- **NIM**   : 250320580  
+- **Kelas** : 1DSRA
 
 ---
 
@@ -60,12 +60,13 @@ Tuliskan 2–3 poin kesimpulan dari praktikum ini.
 ---
 
 ## Quiz
-1. [Pertanyaan 1]  
-   **Jawaban:**  
-2. [Pertanyaan 2]  
-   **Jawaban:**  
-3. [Pertanyaan 3]  
-   **Jawaban:**  
+1. Mengapa container perlu dibatasi CPU dan memori?
+   **Jawaban**: Container perlu dibatasi CPU dan memori agar satu container tidak menggunakan sumber daya secara berlebihan dan mengganggu container lain atau sistem host. Pembatasan ini membantu menjaga stabilitas sistem, memastikan keadilan penggunaan resource, serta memudahkan perencanaan kapasitas dan performa aplikasi.
+2. Apa perbedaan VM dan container dalam konteks isolasi resource?
+   **Jawaban**: Virtual Machine (VM) melakukan isolasi resource dengan menjalankan sistem operasi lengkap (guest OS) di atas hypervisor, sehingga isolasinya lebih kuat namun membutuhkan resource lebih besar.
+Container melakukan isolasi pada level sistem operasi (kernel yang sama), sehingga lebih ringan dan cepat, tetapi tingkat isolasinya lebih rendah dibanding VM.
+3. Apa dampak limit memori terhadap aplikasi yang boros memori?
+   **Jawaban**: Jika aplikasi yang boros memori diberi limit memori, aplikasi tersebut dapat mengalami penurunan performa, error, atau dihentikan secara paksa (misalnya terkena OOM Killer). Hal ini memaksa aplikasi untuk lebih efisien dalam penggunaan memori, tetapi jika limit terlalu kecil, aplikasi bisa sering crash.
 
 ---
 
